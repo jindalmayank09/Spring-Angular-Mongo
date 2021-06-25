@@ -1,3 +1,13 @@
+${AnsiColor.BRIGHT_GREEN}   .~~.   .~~.
+${AnsiColor.BRIGHT_GREEN}  '. ${AnsiColor.GREEN}\${AnsiColor.BRIGHT_GREEN} ' ' ${AnsiColor.GREEN}/${AnsiColor.BRIGHT_GREEN} .'
+${AnsiColor.BRIGHT_RED}   .~ ${AnsiColor.BRIGHT_MAGENTA}.~~~.${AnsiColor.BRIGHT_RED}.~.
+${AnsiColor.BRIGHT_RED}  : ${AnsiColor.BRIGHT_MAGENTA}.~.${AnsiColor.BRIGHT_RED}'~'${AnsiColor.BRIGHT_MAGENTA}.~.${AnsiColor.BRIGHT_RED} :  
+${AnsiColor.BRIGHT_RED} ~ ${AnsiColor.BRIGHT_MAGENTA}(   )${AnsiColor.BRIGHT_RED} ${AnsiColor.BRIGHT_MAGENTA}(   )${AnsiColor.BRIGHT_RED} ~ 
+${AnsiColor.BRIGHT_RED}( : ${AnsiColor.BRIGHT_MAGENTA}'~'${AnsiColor.BRIGHT_RED}.~.${AnsiColor.BRIGHT_MAGENTA}'~' ${AnsiColor.BRIGHT_RED}: )
+${AnsiColor.BRIGHT_RED} ~ ${AnsiColor.BRIGHT_MAGENTA}.~ ${AnsiColor.BRIGHT_RED}(   )${AnsiColor.BRIGHT_MAGENTA} ~. ${AnsiColor.BRIGHT_RED}~ 
+${AnsiColor.BRIGHT_RED}  ${AnsiColor.BRIGHT_MAGENTA}(  : ${AnsiColor.BRIGHT_RED}'~' ${AnsiColor.BRIGHT_MAGENTA}:  )    ${AnsiColor.MAGENTA}
+${AnsiColor.BRIGHT_RED}   ${AnsiColor.BRIGHT_MAGENTA}'~ ${AnsiColor.BRIGHT_RED}.~~~.${AnsiColor.BRIGHT_MAGENTA} ~'     ${AnsiColor.RED}  
+${AnsiColor.BRIGHT_RED}       ${AnsiColor.BRIGHT_MAGENTA}'~'${AnsiColor.DEFAULT}
   __  __    _ __   __ _    _   _ _  __      _ ___ _   _ ____    _    _     
  |  \/  |  / \\ \ / // \  | \ | | |/ /     | |_ _| \ | |  _ \  / \  | |    
  | |\/| | / _ \\ V // _ \ |  \| | ' /   _  | || ||  \| | | | |/ _ \ | |    
@@ -9,52 +19,12 @@ Application Version : ${spring-boot.formatted-version}
 Application Formatted Version : ${spring-boot.formatted-version}
 Spring Boot Version : ${spring-boot-version}
 Spring Boot Formatted Version : ${spring-boot.formatted-version}
---------------------------------------------------------------------------
-${AnsiColor.BRIGHT_RED}	 Spring boot banner customization example
---------------------------------------------------------------------------
 
 
 
 
-${AnsiColor.BRIGHT_GREEN}   .~~.   .~~.
-${AnsiColor.BRIGHT_GREEN}  '. ${AnsiColor.GREEN}\${AnsiColor.BRIGHT_GREEN} ' ' ${AnsiColor.GREEN}/${AnsiColor.BRIGHT_GREEN} .'
-${AnsiColor.BRIGHT_RED}   .~ ${AnsiColor.BRIGHT_MAGENTA}.~~~.${AnsiColor.BRIGHT_RED}.~.
-${AnsiColor.BRIGHT_RED}  : ${AnsiColor.BRIGHT_MAGENTA}.~.${AnsiColor.BRIGHT_RED}'~'${AnsiColor.BRIGHT_MAGENTA}.~.${AnsiColor.BRIGHT_RED} :    ${AnsiColor.MAGENTA}██████${AnsiColor.RED}╗${AnsiColor.MAGENTA}  █████${AnsiColor.RED}╗${AnsiColor.MAGENTA} ███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███${AnsiColor.RED}╗${AnsiColor.MAGENTA}   ███${AnsiColor.RED}╗${AnsiColor.MAGENTA} █████${AnsiColor.RED}╗${AnsiColor.MAGENTA} ████████${AnsiColor.RED}╗${AnsiColor.MAGENTA} █████${AnsiColor.RED}╗${AnsiColor.MAGENTA} ███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗
-${AnsiColor.BRIGHT_RED} ~ ${AnsiColor.BRIGHT_MAGENTA}(   )${AnsiColor.BRIGHT_RED} ${AnsiColor.BRIGHT_MAGENTA}(   )${AnsiColor.BRIGHT_RED} ~   ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}████${AnsiColor.RED}╗ ${AnsiColor.MAGENTA}████${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗╚══${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══╝${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝
-${AnsiColor.BRIGHT_RED}( : ${AnsiColor.BRIGHT_MAGENTA}'~'${AnsiColor.BRIGHT_RED}.~.${AnsiColor.BRIGHT_MAGENTA}'~' ${AnsiColor.BRIGHT_RED}: )  ${AnsiColor.MAGENTA}██████${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}███████${AnsiColor.RED}║  ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}   ███${AnsiColor.RED}╔╝ ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔${AnsiColor.MAGENTA}████${AnsiColor.RED}╔${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}███████${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}███████${AnsiColor.RED}║  ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝   ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝
-${AnsiColor.BRIGHT_RED} ~ ${AnsiColor.BRIGHT_MAGENTA}.~ ${AnsiColor.BRIGHT_RED}(   )${AnsiColor.BRIGHT_MAGENTA} ~. ${AnsiColor.BRIGHT_RED}~   ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}║ ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝   ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║╚${AnsiColor.MAGENTA}██${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}║ ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝  ${AnsiColor.MAGENTA} ███${AnsiColor.RED}╔╝
-${AnsiColor.BRIGHT_RED}  ${AnsiColor.BRIGHT_MAGENTA}(  : ${AnsiColor.BRIGHT_RED}'~' ${AnsiColor.BRIGHT_MAGENTA}:  )    ${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}██${AnsiColor.RED}║ ╚═╝ ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗
-${AnsiColor.BRIGHT_RED}   ${AnsiColor.BRIGHT_MAGENTA}'~ ${AnsiColor.BRIGHT_RED}.~~~.${AnsiColor.BRIGHT_MAGENTA} ~'     ${AnsiColor.RED}╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
-${AnsiColor.BRIGHT_RED}       ${AnsiColor.BRIGHT_MAGENTA}'~'${AnsiColor.DEFAULT}
 
 
 
-      ${AnsiColor.BRIGHT_WHITE}_${AnsiColor.BLACK}~~~~_                                   ${AnsiColor.BRIGHT_WHITE}{:                                                              ${AnsiColor.BRIGHT_WHITE}------
-    ${AnsiColor.BRIGHT_WHITE}~~:${AnsiColor.BLACK}@WWWWW~~_                               ${AnsiColor.BRIGHT_WHITE}:::                                             ${AnsiColor.BRIGHT_WHITE}----------------${AnsiColor.BRIGHT_CYAN}**${AnsiColor.BLUE}@@@${AnsiColor.BRIGHT_CYAN}**
-  ${AnsiColor.BRIGHT_WHITE}~::${AnsiColor.BLACK}@WWWWWWWWWW~_                             ${AnsiColor.BRIGHT_WHITE}:::                                    ${AnsiColor.BRIGHT_WHITE}-------------${AnsiColor.BRIGHT_CYAN}**${AnsiColor.BLUE}@@@@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}***${AnsiColor.BLUE}@@${AnsiColor.BRIGHT_CYAN}**
- ${AnsiColor.BRIGHT_WHITE}{::${AnsiColor.BLACK}@WWWWWWWWWWWWW${AnsiColor.BRIGHT_WHITE}}                            ${AnsiColor.BRIGHT_WHITE}::: |                                    ${AnsiColor.BRIGHT_WHITE}-----${AnsiColor.BRIGHT_CYAN}***${AnsiColor.BLUE}@@@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}*******${AnsiColor.BLUE}@@@${AnsiColor.BRIGHT_CYAN}****
-${AnsiColor.BRIGHT_WHITE}{::${AnsiColor.BLACK}@WWWWWWWWWWWWWW${AnsiColor.BRIGHT_WHITE}]                            ${AnsiColor.BRIGHT_WHITE}{::,:                         ${AnsiColor.BRIGHT_WHITE}--------------${AnsiColor.BRIGHT_CYAN}***${AnsiColor.BLUE}@@@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}*******${AnsiColor.BLUE}@@@@@${AnsiColor.BRIGHT_CYAN}******
-${AnsiColor.BRIGHT_WHITE}{:${AnsiColor.BLACK}@WWWWWWWWWWWWWWWW${AnsiColor.BLUE}b                ${AnsiColor.BLACK}~~         ${AnsiColor.BRIGHT_WHITE}:::}                ${AnsiColor.BRIGHT_WHITE}-----------${AnsiColor.BRIGHT_CYAN}**************${AnsiColor.BLUE}@@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}************${AnsiColor.BLUE}@@@${AnsiColor.BRIGHT_CYAN}******
-${AnsiColor.BLACK}{@@WWWWWWWWWWWWWWWW${AnsiColor.BLUE}BB             ${AnsiColor.BLACK}~~@@~~~~~~~~@@${AnsiColor.BRIGHT_WHITE}:}               ${AnsiColor.BRIGHT_WHITE}----${AnsiColor.BRIGHT_CYAN}******************${AnsiColor.BLUE}@@@@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}**************${AnsiColor.BLUE}@@@@@${AnsiColor.BRIGHT_CYAN}*****
-${AnsiColor.BLACK}{@@WWWWWWWWWWWWWWWW${AnsiColor.BLUE}BB       ${AnsiColor.BLACK}+++WWWW~${AnsiColor.BLACK}@@@@@@@@@@@@~                   ${AnsiColor.BRIGHT_WHITE}-----------${AnsiColor.BLUE}@@@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}************************${AnsiColor.BLUE}@@${AnsiColor.BRIGHT_CYAN}*${AnsiColor.BLUE}@${AnsiColor.BRIGHT_CYAN}*****
- ${AnsiColor.BLACK}{@WWWWWWWWWWWWWWWW++${AnsiColor.BRIGHT_WHITE}wwwwwwwwww${AnsiColor.BLACK}~~~~~~~~~-~-~-~-~~~                            ${AnsiColor.BRIGHT_WHITE}------------------${AnsiColor.BLUE}@@@${AnsiColor.BRIGHT_CYAN}********************${AnsiColor.BLUE}@${AnsiColor.BRIGHT_CYAN}*****
- ${AnsiColor.BLACK}{@WWWWWWWWWWWWWWWW${AnsiColor.BRIGHT_WHITE}wwwwwwwwwwwwwwwww${AnsiColor.BLACK}~~@@@@@@@@@${AnsiColor.BRIGHT_WHITE}:::~~                                        ${AnsiColor.BRIGHT_WHITE}--------${AnsiColor.BRIGHT_CYAN}************************
-  ${AnsiColor.BLACK}{@@WWWWWWWWWWW${AnsiColor.BLUE}BBB${AnsiColor.BLACK}~-~-~-~-~-~-~-~-~-~~-~-~-~-${AnsiColor.BRIGHT_WHITE}[{:::~{                                               ${AnsiColor.BRIGHT_WHITE}--${AnsiColor.BLUE}@@@@@@@@@@@${AnsiColor.BRIGHT_CYAN}********
-   ${AnsiColor.BLACK}{@@@@@${AnsiColor.BLUE}BBBBBBBBB${AnsiColor.BRIGHT_WHITE}wwwwwwwwwwwww${AnsiColor.BLACK}~~~~@@@@@@@~-+++{{::::{                                                    ${AnsiColor.BRIGHT_WHITE}--${AnsiColor.BLUE}@@@@@@${AnsiColor.BRIGHT_CYAN}*****
-  ${AnsiColor.BLACK}{@@@@${AnsiColor.BLUE}BBBBBBB${AnsiColor.BLACK}~~${AnsiColor.BRIGHT_WHITE}wwwwwwwwwwww                   ${AnsiColor.BRIGHT_WHITE}{{{::::{~
- ${AnsiColor.BLACK}{@@${AnsiColor.BLUE}BBBBBBBBBB                                   ${AnsiColor.BRIGHT_WHITE}{{::::{~~~
-                                                     ${AnsiColor.BRIGHT_WHITE}~~~~~~~~
-${AnsiColor.DEFAULT}
- ▄▄▄▄▄▄▄▄▄▄▄  ▄         ▄  ▄▄▄▄▄▄▄▄▄▄               ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄
-▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░▌             ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
-▐░█▀▀▀▀▀▀▀▀▀ ▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌             ▀▀▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌
-▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌                      ▐░▌▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌
-▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌
-▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
-${AnsiColor.BLUE} ▀▀▀▀▀▀▀▀▀█${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌       ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▀▀▀▀▀▀▀█${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▀▀▀▀▀▀▀▀▀▀▀ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▀▀▀▀▀▀▀▀▀ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▀▀▀▀▀▀▀▀▀ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▀▀▀▀█${AnsiColor.BLACK}░${AnsiColor.BLUE}█▀▀ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌       ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌
-${AnsiColor.BLUE}          ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌       ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌       ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌            ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌          ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌          ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌     ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌  ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌       ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌
-${AnsiColor.BLUE} ▄▄▄▄▄▄▄▄▄█${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▄▄▄▄▄▄▄█${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▄▄▄▄▄▄▄█${AnsiColor.BLACK}░${AnsiColor.BLUE}▌            ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▄▄▄▄▄▄▄▄▄ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▄▄▄▄▄▄▄▄▄ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌      ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌ ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}█▄▄▄▄▄▄▄█${AnsiColor.BLACK}░${AnsiColor.BLUE}▌
-${AnsiColor.BLUE}▐${AnsiColor.BLACK}░░░░░░░░░░░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░░░░░░░░░░░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░░░░░░░░░░${AnsiColor.BLUE}▌             ▐${AnsiColor.BLACK}░░░░░░░░░░░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░░░░░░░░░░░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌       ▐${AnsiColor.BLACK}░${AnsiColor.BLUE}▌▐${AnsiColor.BLACK}░░░░░░░░░░░${AnsiColor.BLUE}▌
-${AnsiColor.BLUE} ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀               ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀${AnsiColor.DEFAULT}
                                                                            
 																		   
