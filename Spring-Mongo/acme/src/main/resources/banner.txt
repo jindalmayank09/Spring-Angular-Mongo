@@ -5,12 +5,26 @@
  |_|  |_/_/   \_\_/_/   \_\_| \_|_|\_\  \___/|___|_| \_|____/_/   \_\_____|
  
 Application Name : ${application.title}
-Application Version : ${application.version}
-Application Formatted Version : ${application.formatted-version}
+Application Version : ${spring-boot.formatted-version}
+Application Formatted Version : ${spring-boot.formatted-version}
 Spring Boot Version : ${spring-boot-version}
 Spring Boot Formatted Version : ${spring-boot.formatted-version}
 --------------------------------------------------------------------------
 ${AnsiColor.BRIGHT_RED}	 Spring boot banner customization example
 --------------------------------------------------------------------------
+
+
+
+
+${AnsiColor.BRIGHT_GREEN}   .~~.   .~~.
+${AnsiColor.BRIGHT_GREEN}  '. ${AnsiColor.GREEN}\${AnsiColor.BRIGHT_GREEN} ' ' ${AnsiColor.GREEN}/${AnsiColor.BRIGHT_GREEN} .'
+${AnsiColor.BRIGHT_RED}   .~ ${AnsiColor.BRIGHT_MAGENTA}.~~~.${AnsiColor.BRIGHT_RED}.~.
+${AnsiColor.BRIGHT_RED}  : ${AnsiColor.BRIGHT_MAGENTA}.~.${AnsiColor.BRIGHT_RED}'~'${AnsiColor.BRIGHT_MAGENTA}.~.${AnsiColor.BRIGHT_RED} :    ${AnsiColor.MAGENTA}██████${AnsiColor.RED}╗${AnsiColor.MAGENTA}  █████${AnsiColor.RED}╗${AnsiColor.MAGENTA} ███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███${AnsiColor.RED}╗${AnsiColor.MAGENTA}   ███${AnsiColor.RED}╗${AnsiColor.MAGENTA} █████${AnsiColor.RED}╗${AnsiColor.MAGENTA} ████████${AnsiColor.RED}╗${AnsiColor.MAGENTA} █████${AnsiColor.RED}╗${AnsiColor.MAGENTA} ███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗
+${AnsiColor.BRIGHT_RED} ~ ${AnsiColor.BRIGHT_MAGENTA}(   )${AnsiColor.BRIGHT_RED} ${AnsiColor.BRIGHT_MAGENTA}(   )${AnsiColor.BRIGHT_RED} ~   ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}████${AnsiColor.RED}╗ ${AnsiColor.MAGENTA}████${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗╚══${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══╝${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝╚══${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝
+${AnsiColor.BRIGHT_RED}( : ${AnsiColor.BRIGHT_MAGENTA}'~'${AnsiColor.BRIGHT_RED}.~.${AnsiColor.BRIGHT_MAGENTA}'~' ${AnsiColor.BRIGHT_RED}: )  ${AnsiColor.MAGENTA}██████${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}███████${AnsiColor.RED}║  ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}   ███${AnsiColor.RED}╔╝ ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔${AnsiColor.MAGENTA}████${AnsiColor.RED}╔${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}███████${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}███████${AnsiColor.RED}║  ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝   ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝
+${AnsiColor.BRIGHT_RED} ~ ${AnsiColor.BRIGHT_MAGENTA}.~ ${AnsiColor.BRIGHT_RED}(   )${AnsiColor.BRIGHT_MAGENTA} ~. ${AnsiColor.BRIGHT_RED}~   ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}╗${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}║ ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝   ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║╚${AnsiColor.MAGENTA}██${AnsiColor.RED}╔╝${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}╔══${AnsiColor.MAGENTA}██${AnsiColor.RED}║ ${AnsiColor.MAGENTA}███${AnsiColor.RED}╔╝  ${AnsiColor.MAGENTA} ███${AnsiColor.RED}╔╝
+${AnsiColor.BRIGHT_RED}  ${AnsiColor.BRIGHT_MAGENTA}(  : ${AnsiColor.BRIGHT_RED}'~' ${AnsiColor.BRIGHT_MAGENTA}:  )    ${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}██${AnsiColor.RED}║ ╚═╝ ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║   ${AnsiColor.MAGENTA}██${AnsiColor.RED}║  ${AnsiColor.MAGENTA}██${AnsiColor.RED}║${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗${AnsiColor.MAGENTA}███████${AnsiColor.RED}╗
+${AnsiColor.BRIGHT_RED}   ${AnsiColor.BRIGHT_MAGENTA}'~ ${AnsiColor.BRIGHT_RED}.~~~.${AnsiColor.BRIGHT_MAGENTA} ~'     ${AnsiColor.RED}╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝
+${AnsiColor.BRIGHT_RED}       ${AnsiColor.BRIGHT_MAGENTA}'~'${AnsiColor.DEFAULT}
                                                                            
 																		   
